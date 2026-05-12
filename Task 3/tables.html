@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Complex Table Design - Indian Pricing</title>
+</head>
+
+<body bgcolor="#F0F8FF">
+
+    <h1 align="center">Product Plan Comparison Table (Indian Pricing)</h1>
+
+    <table border="2" cellpadding="10" cellspacing="5" width="100%">
+
+        <!-- TABLE HEADER -->
+        <thead bgcolor="#99CCFF">
+            <tr>
+                <th scope="col">Features</th>
+                <th scope="col">Basic Plan</th>
+                <th scope="col">Standard Plan</th>
+                <th scope="col">Premium Plan</th>
+                <th scope="col">Enterprise Plan</th>
+            </tr>
+        </thead>
+
+        <!-- TABLE BODY -->
+        <tbody>
+
+            <tr bgcolor="#FFFFFF">
+                <th scope="row" align="left">Price</th>
+                <td align="center" valign="middle">₹799 / Month</td>
+                <td align="center" valign="middle">₹1,499 / Month</td>
+                <td align="center" valign="middle">₹2,999 / Month</td>
+                <td align="center" valign="middle">₹5,999 / Month</td>
+            </tr>
+
+            <tr bgcolor="#EEEEEE">
+                <th scope="row" align="left">Storage</th>
+                <td align="center">50 GB</td>
+                <td align="center">200 GB</td>
+                <td align="center">1 TB</td>
+                <td align="center">Unlimited</td>
+            </tr>
+
+            <tr bgcolor="#FFFFFF">
+                <th scope="row" align="left">Users Allowed</th>
+                <td align="center">1 User</td>
+                <td align="center">5 Users</td>
+                <td align="center">20 Users</td>
+                <td align="center">Unlimited Users</td>
+            </tr>
+
+            <tr bgcolor="#EEEEEE">
+                <th scope="row" align="left">Support</th>
+                <td align="left">Email Support</td>
+                <td align="center">Email + Chat</td>
+                <td align="right">24/7 Priority</td>
+                <td align="center"><b>Dedicated Manager</b></td>
+            </tr>
+
+            <!-- MERGED CELL USING ROWSPAN -->
+            <tr bgcolor="#FFFFFF">
+                <th scope="row" rowspan="2" valign="top">Security</th>
+
+                <td colspan="2" align="center">
+                    SSL Protection Included
+                </td>
+
+                <td colspan="2" align="center">
+                    SSL + Advanced Firewall
+                </td>
+            </tr>
+
+            <tr bgcolor="#FFFFFF">
+
+                <td colspan="2" align="center">
+                    Weekly Backup
+                </td>
+
+                <td colspan="2" align="center">
+                    Daily Automatic Backup
+                </td>
+            </tr>
+
+            <!-- NESTED TABLE -->
+            <tr bgcolor="#EEEEEE">
+                <th scope="row" valign="top">Pricing Breakdown</th>
+
+                <td align="center">
+                    Setup: ₹499
+                </td>
+
+                <td colspan="2">
+
+                    <table border="1" cellpadding="5" cellspacing="2" width="100%">
+
+                        <tr bgcolor="#CCCCCC">
+                            <th scope="col">Service</th>
+                            <th scope="col">Cost</th>
+                        </tr>
+
+                        <tr bgcolor="#FFFFFF">
+                            <td>Hosting</td>
+                            <td>₹799</td>
+                        </tr>
+
+                        <tr bgcolor="#EEEEEE">
+                            <td>Maintenance</td>
+                            <td>₹399</td>
+                        </tr>
+
+                        <tr bgcolor="#FFFFFF">
+                            <td>Support</td>
+                            <td>₹299</td>
+                        </tr>
+
+                    </table>
+
+                </td>
+
+                <td align="center">
+                    Custom Pricing
+                </td>
+            </tr>
+
+            <!-- IMAGE CELL -->
+            <tr bgcolor="#FFFFFF">
+                <th scope="row">Product Image</th>
+
+                <td align="center">
+                    <img src="images/Basic Plan.jpeg" alt="Basic Plan" width="200px">
+                </td>
+
+                <td align="center">
+                    <img src="images/Standard Plan.jpeg" alt="Standard Plan" width="200px">
+                </td>
+
+                <td align="center">
+                    <img src="images/Premium Plan.jpeg" alt="Premium Plan" width="200px">
+                </td>
+
+                <td align="center">
+                    <img src="images/Enterprise Plan.jpeg" alt="Enterprise Plan" width="200px">
+                </td>
+            </tr>
+
+            <!-- LINK CELL -->
+            <tr bgcolor="#EEEEEE">
+                <th scope="row">Official Website</th>
+
+                <td align="center">
+                    <a href="basic.html">Visit</a>
+                </td>
+
+                <td align="center">
+                    <a href="standard.html">Visit</a>
+                </td>
+                
+                <td align="center">
+                    <a href="premium.html">Visit</a>
+                </td>
+
+                <td align="center">
+                    <a href="enterprise.html">Visit</a>
+                </td>
+            </tr>
+
+            <!-- FORMATTED TEXT -->
+            <tr bgcolor="#FFFFFF">
+                <th scope="row">Special Notes</th>
+
+                <td>
+                    <b>Affordable</b> and <i>simple</i> plan
+                </td>
+
+                <td>
+                    <u>Best Choice</u> for startups
+                </td>
+
+                <td>
+                    <b><i>Highly Recommended</i></b>
+                </td>
+
+                <td>
+                    <u><b>Enterprise Grade</b></u>
+                </td>
+            </tr>
+
+        </tbody>
+
+        <!-- TABLE FOOTER -->
+        <tfoot bgcolor="#FFD699">
+            <tr>
+                <th scope="row">Final Rating</th>
+                <td align="center">7/10</td>
+                <td align="center">8/10</td>
+                <td align="center">9/10</td>
+                <td align="center">10/10</td>
+            </tr>
+        </tfoot>
+
+    </table>
+
+</body>
+</html>

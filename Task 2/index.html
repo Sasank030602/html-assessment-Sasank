@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Advanced Link Implementation & Navigation Patterns</title>
+</head>
+
+<body bgcolor="#F0F8FF" text="#000000">
+
+<a id="top"></a>
+
+<h1 align="center">Advanced Link Implementation & Navigation Patterns</h1>
+
+<hr>
+
+<h2>Table of Contents</h2>
+
+<ol>
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#internal-links">Internal Navigation</a></li>
+    <li><a href="#relative-links">Relative Links</a></li>
+    <li><a href="#download-links">Download Links</a></li>
+    <li><a href="#email-telephone-links">Email and Telephone Links</a></li>
+    <li><a href="#image-maps">Image Maps</a></li>
+</ol>
+
+<hr>
+
+<h2 id="introduction">1. Introduction</h2>
+
+<p>
+This page demonstrates advanced HTML linking techniques using only pure HTML.
+</p>
+
+<p align="right">
+<a href="#top">Back to Top</a>
+</p>
+
+<hr>
+
+<h2 id="internal-links">2. Internal Navigation</h2>
+
+<p>
+Anchor links help users jump to sections within the same page.
+</p>
+
+<ul>
+    <li><a href="#download-links">Go to Download Section</a></li>
+    <li><a href="#image-maps">Go to Image Map Section</a></li>
+</ul>
+
+<p align="right">
+<a href="#top">Back to Top</a>
+</p>
+
+<hr>
+
+<h2 id="relative-links">3. Relative Links</h2>
+
+<ul>
+    <li><a href="pages/about.html">About Page</a></li>
+    <li><a href="pages/contact.html">Contact Page</a></li>
+    <li><a href="resources/help.html">Help Page</a></li>
+</ul>
+
+<p align="right">
+<a href="#top">Back to Top</a>
+</p>
+
+<hr>
+
+<h2 id="download-links">4. Download Links</h2>
+
+<ul>
+    <li>
+        <a href="files/sample.pdf" download>
+            Download PDF File
+        </a>
+    </li>
+
+    <li>
+        <a href="files/readme.txt" download>
+            Download TXT File
+        </a>
+    </li>
+</ul>
+
+<p align="right">
+<a href="#top">Back to Top</a>
+</p>
+
+<hr>
+
+<h2 id="email-telephone-links">5. Email and Telephone Links</h2>
+
+<h3>Email Link</h3>
+
+<p>
+<a href="mailto:chenchusasank@paithacs.com">
+Send Email
+</a>
+</p>
+
+<h3>Telephone Link</h3>
+
+<p>
+<a href="tel:+919876543210">
+Call +91 98765 43210
+</a>
+</p>
+
+<p align="right">
+<a href="#top">Back to Top</a>
+</p>
+
+<hr>
+
+<h2 id="image-maps">6. Image Maps</h2>
+
+<p>Click different regions of the image below.</p>
+
+<img src="images/AP.jpg"
+     alt="Navigation Map"
+     usemap="#imagemap"
+     width="240"
+     height="220"
+     border="1">
+
+<map name="imagemap">
+
+    <area shape="rect"
+          coords="20,20,180,120"
+          href="pages/about.html"
+          alt="About">
+
+    <area shape="circle"
+          coords="300,100,60"
+          href="pages/contact.html"
+          alt="Contact">
+
+    <area shape="poly"
+          coords="420,50,550,80,520,180,390,150"
+          href="resources/help.html"
+          alt="Help">
+
+    <area shape="rect"
+          coords="200,250,400,350"
+          href="files/sample.pdf"
+          alt="PDF">
+
+</map>
+
+<p align="right">
+<a href="#top">Back to Top</a>
+</p>
+
+<hr>
+
+<h3 align="center">End of Page</h3>
+
+</body>
+</html>

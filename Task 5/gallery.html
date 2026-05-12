@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Advanced Image Gallery</title>
+</head>
+
+<body bgcolor="#F5F5F5">
+
+    <center>
+        <h1>Advanced Image Gallery with Multiple Formats</h1>
+        <p>
+            This gallery demonstrates image techniques using pure HTML only.
+        </p>
+    </center>
+
+    <hr>
+
+    <h2>1. Basic Image Gallery</h2>
+
+    <img 
+        src="./images/sunrise.avif"
+        alt="Beautiful sunrise over green mountains with golden light"
+        width="250"
+        height="180"
+        border="2"
+        hspace="10"
+        vspace="10"
+        title="Mountain sunrise captured during early morning"
+    >
+
+    <img 
+        src="./images/clear lake.webp"
+        alt="Crystal clear lake surrounded by pine trees and hills"
+        width="250"
+        height="180"
+        border="4"
+        hspace="10"
+        vspace="10"
+        title="Peaceful lake landscape in the countryside"
+    >
+
+    <img 
+        src="./images/garden.jpg!sw800"
+        alt="Colorful garden flowers blooming during spring season"
+        width="250"
+        height="180"
+        border="0"
+        hspace="10"
+        vspace="10"
+        title="Spring flowers with vibrant natural colors"
+    >
+
+    <img 
+        src="images/city.jpg"
+        alt="Modern city skyline with illuminated skyscrapers at night"
+        width="250"
+        height="180"
+        border="3"
+        hspace="10"
+        vspace="10"
+    >
+
+    <hr>
+
+    <h2>2. Images Used as Links</h2>
+
+    <!-- Link Example 1 -->
+    <a href="https://www.wikipedia.org" target="_blank">
+        <img 
+            src="./images/wiki.png"
+            alt="Wikipedia logo image linking to Wikipedia homepage"
+            width="250"
+            height="150"
+            border="2"
+            hspace="10"
+            vspace="10"
+            title="Open Wikipedia in a new tab"
+        >
+    </a>
+
+    <!-- Link Example 2 -->
+    <a href="gallery.html" target="_self">
+        <img 
+            src="./images/gallery.png"
+            alt="Thumbnail image linking back to the gallery page"
+            width="250"
+            height="150"
+            border="2"
+            hspace="10"
+            vspace="10"
+            title="Reload current gallery page"
+        >
+    </a>
+
+    <!-- Link Example 3 -->
+    <a href="https://www.openai.com" target="_parent">
+        <img 
+            src="./images/technology.png"
+            alt="Technology themed image linking to OpenAI website"
+            width="250"
+            height="145"
+            border="5"
+            hspace="10"
+            vspace="10"
+            title="Visit OpenAI official website"
+        >
+    </a>
+
+    <!-- Link Example 4 -->
+    <a href="https://www.example.com" target="_top">
+        <img 
+            src="./images/example.png"
+            alt="Example website preview image used as a hyperlink"
+            width="250"
+            height="152"
+            border="1"
+            hspace="10"
+            vspace="10"
+            title="Navigate to Example website"
+        >
+    </a>
+
+    <hr>
+
+    <h2>3. Figure and Figcaption Examples</h2>
+
+    <figure>
+        <img 
+            src="./images/beach.avif"
+            alt="Sunny beach with blue ocean waves and palm trees"
+            width="320"
+            height="220"
+            border="2"
+            title="Relaxing tropical beach destination"
+        >
+        <figcaption>
+            Tropical beach during a sunny afternoon.
+        </figcaption>
+    </figure>
+
+    <figure>
+        <img 
+            src="./images/forest.avif"
+            alt="Dense green forest pathway surrounded by tall trees"
+            width="320"
+            height="220"
+            border="2"
+            title="Nature trail inside a green forest"
+        >
+        <figcaption>
+            Walking trail through a peaceful forest.
+        </figcaption>
+    </figure>
+
+    <figure>
+        <img 
+            src="./images/river.avif"
+            alt="Flowing river passing through rocky mountain terrain"
+            width="320"
+            height="220"
+            border="2"
+        >
+        <figcaption>
+            Mountain river with clear flowing water.
+        </figcaption>
+    </figure>
+
+    <figure>
+        <img 
+            src="./images/birds.avif"
+            alt="Group of colorful birds sitting on tree branches"
+            width="320"
+            height="220"
+            border="2"
+            title="Wild birds photographed in natural habitat"
+        >
+        <figcaption>
+            Birds resting on tree branches in the morning.
+        </figcaption>
+    </figure>
+
+    <figure>
+        <img 
+            src="./images/dessert.avif"
+            alt="Golden desert sand dunes under bright blue sky"
+            width="320"
+            height="220"
+            border="2"
+        >
+        <figcaption>
+            Sand dunes stretching across the desert landscape.
+        </figcaption>
+    </figure>
+
+    <figure>
+        <img 
+            src="./images/snow.avif"
+            alt="Snow covered mountains during winter season"
+            width="320"
+            height="220"
+            border="2"
+            title="Snowy mountain range in winter"
+        >
+        <figcaption>
+            Snowy mountains with cloudy skies.
+        </figcaption>
+    </figure>
+
+    <hr>
+
+    <h2>4. Responsive Images Using Picture Element</h2>
+
+    <picture>
+        <source 
+            media="(max-width: 600px)"
+            srcset="./images/mobile-nature.jpg"
+        >
+
+        <source 
+            media="(max-width: 1000px)"
+            srcset="./images/tablet-nature.jpg"
+        >
+
+        <img 
+            src="./images/climate.avif"
+            alt="Responsive nature landscape displayed for different screen sizes"
+            width="500"
+            height="300"
+            border="3"
+            title="Responsive image using picture element"
+        >
+    </picture>
+
+    <br><br>
+
+    <picture>
+        <source 
+            media="(max-width: 500px)"
+            srcset="../assets/mobile-city.jpg"
+        >
+
+        <source 
+            media="(max-width: 900px)"
+            srcset="../assets/tablet-city.jpg"
+        >
+
+        <img 
+            src="./images/night.avif"
+            alt="Responsive city skyline image adapting to device screen size"
+            width="500"
+            height="300"
+            border="3"
+        >
+    </picture>
+
+    <hr>
+
+    <h2>5. Image with Text Wrapping Using Align Attribute</h2>
+
+    <img 
+        src="./images/library.avif"
+        alt="Large library interior filled with bookshelves and reading tables"
+        width="250"
+        height="180"
+        border="2"
+        align="left"
+        hspace="15"
+        vspace="10"
+        title="Library image aligned to the left"
+    >
+
+    <p>
+        This paragraph demonstrates how text wraps around an image aligned to the left side of the page. 
+        The align attribute allows the image to float beside the content. 
+        HTML image attributes such as hspace and vspace create spacing around the image. 
+        This layout style was commonly used in older HTML-based websites.
+    </p>
+
+    <br clear="all">
+
+    <img 
+        src="./images/computer.avif"
+        alt="Modern desktop computer setup with keyboard and monitor"
+        width="250"
+        height="180"
+        border="2"
+        align="right"
+        hspace="15"
+        vspace="10"
+        title="Computer workstation aligned to the right"
+    >
+
+    <p>
+        This example shows an image aligned to the right side of the page. 
+        The surrounding text automatically wraps around the image position. 
+        The image includes descriptive alternative text for accessibility and uses 
+        traditional HTML attributes for spacing and formatting.
+    </p>
+
+    <br clear="all">
+
+    <hr>
+
+    <h2>6. Absolute URL Image Example</h2>
+
+    <img 
+        src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Fronalpstock_big.jpg"
+        alt="Panoramic mountain landscape with lake and green hills from Wikimedia Commons"
+        width="500"
+        height="300"
+        border="4"
+        hspace="10"
+        vspace="10"
+        title="Scenic mountain view loaded from an external web URL"
+    >
+
+    <hr>
+
+    <center>
+        <h3>End of Advanced Image Gallery</h3>
+    </center>
+
+</body>
+</html>
