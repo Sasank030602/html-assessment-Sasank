@@ -40,8 +40,8 @@ Each task is stored in a separate file/folder for better organization and unders
 
 ## Author
 
-Name:- Chenchu Sasank Pendela
-Email:- chenchusasank@paithacs.com
+- Name:- Chenchu Sasank Pendela
+- Email:- chenchusasank@paithacs.com
 
 ## 🎯 Purpose of This Repository
 
