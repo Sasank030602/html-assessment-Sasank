@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="HTML Attributes and Metadata Showcase">
+    <meta name="keywords" content="HTML, Attributes, Metadata, Accessibility">
+    <meta name="author" content="Student Developer">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>HTML Attributes & Metadata Showcase</title>
+
+    <!-- Favicon Links -->
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+</head>
+
+<body bgcolor="#F4F4F4">
+
+    <!-- Header -->
+    <header id="mainHeader" class="header-section" title="Main Website Header">
+        <h1 id="pageTitle" class="main-title" title="HTML Attribute Demonstration">
+            HTML Attributes &amp; Metadata Showcase
+        </h1>
+
+        <hr>
+
+        <p id="introText"
+           class="intro-paragraph"
+           data-page-type="educational"
+           title="Introduction Paragraph">
+            Learn about HTML attributes, metadata, entities, and accessibility features.
+        </p>
+    </header>
+
+    <!-- Navigation -->
+    <nav id="mainNavigation" class="navigation-area" title="Primary Navigation">
+        <ul>
+            <li id="navHome" class="nav-item" tabindex="1" title="Go to Home">
+                Home
+            </li>
+
+            <li id="navProducts"
+                class="nav-item"
+                tabindex="2"
+                data-category="products"
+                title="View Products">
+                Products
+            </li>
+
+            <li id="navContact"
+                class="nav-item"
+                tabindex="3"
+                title="Contact Information">
+                Contact
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main id="mainContent" class="content-area">
+
+        <!-- Product Section -->
+        <section id="productSection"
+                 class="section-block"
+                 title="Featured Products">
+
+            <h2 id="productsHeading"
+                class="section-title"
+                data-section="featured-products">
+                Featured Products
+            </h2>
+
+            <hr>
+
+            <!-- Product 1 -->
+            <article id="productOne"
+                     class="product-card"
+                     data-product-id="P1001"
+                     data-category="electronics"
+                     title="Wireless Headphones">
+
+                <h3 class="product-name">Wireless Headphones &trade;</h3>
+
+                <p class="product-description">
+                    Premium sound quality for only &euro;99 &amp; free delivery.
+                </p>
+
+                <button class="buy-button"
+                        draggable="true"
+                        tabindex="0"
+                        title="Buy Product">
+                    Buy Now
+                </button>
+            </article>
+
+            <!-- Product 2 -->
+            <article id="productTwo"
+                     class="product-card"
+                     data-product-id="P1002"
+                     data-category="books"
+                     title="Programming Guide">
+
+                <h3 class="product-name">
+                    HTML Mastery Guide &reg;
+                </h3>
+
+                <p class="product-description">
+                    Price: &pound;25 &nbsp; Limited Edition
+                </p>
+
+                <button class="buy-button"
+                        draggable="true"
+                        tabindex="-1"
+                        title="Purchase Book">
+                    Add to Cart
+                </button>
+            </article>
+
+        </section>
+
+        <!-- Editable Content Section -->
+        <section id="editableSection"
+                 class="section-block"
+                 title="Editable Content Area">
+
+            <h2 id="editableHeading" class="section-title">
+                Editable Notes
+            </h2>
+
+            <hr>
+
+            <div id="editableNoteOne"
+                 class="editable-box"
+                 contenteditable="true"
+                 data-user-role="editor"
+                 title="Editable Text Area">
+                You can edit this paragraph directly in the browser.
+            </div>
+
+            <div id="editableNoteTwo"
+                 class="editable-box"
+                 contenteditable="true"
+                 data-edit-level="advanced"
+                 title="Second Editable Area">
+                This content is also editable.
+            </div>
+
+        </section>
+
+        <!-- Forms Section -->
+        <section id="formSection"
+                 class="section-block"
+                 title="User Feedback Form">
+
+            <h2 id="formHeading" class="section-title">
+                Feedback Form
+            </h2>
+
+            <hr>
+
+            <form id="feedbackForm"
+                  class="form-layout"
+                  data-form-type="feedback">
+
+                <label for="usernameInput"
+                       class="form-label"
+                       title="Enter Username">
+                    Username:
+                </label>
+
+                <input type="text"
+                       id="usernameInput"
+                       class="form-input"
+                       spellcheck="true"
+                       tabindex="0"
+                       title="Username Field">
+
+                <br><br>
+
+                <label for="codeInput"
+                       class="form-label"
+                       title="Enter Product Code">
+                    Product Code:
+                </label>
+
+                <input type="text"
+                       id="codeInput"
+                       class="form-input"
+                       spellcheck="false"
+                       translate="no"
+                       value="SKU-HTML-001">
+
+                <br><br>
+
+                <label for="commentsArea"
+                       class="form-label"
+                       title="Write Comments">
+                    Comments:
+                </label>
+
+                <textarea id="commentsArea"
+                          class="form-textarea"
+                          rows="5"
+                          cols="40"
+                          spellcheck="true"
+                          data-feedback-area="customer-comments">
+                </textarea>
+
+                <br><br>
+
+                <label for="technicalArea"
+                       class="form-label"
+                       title="Technical Data Input">
+                    Technical Notes:
+                </label>
+
+                <textarea id="technicalArea"
+                          class="form-textarea"
+                          rows="5"
+                          cols="40"
+                          spellcheck="false"
+                          translate="no">
+                </textarea>
+
+            </form>
+        </section>
+
+        <!-- Language and Direction -->
+        <section id="languageSection"
+                 class="section-block"
+                 title="Language Demonstration">
+
+            <h2 id="languageHeading" class="section-title">
+                Language &amp; Text Direction
+            </h2>
+
+            <hr>
+
+            <p id="englishText"
+               class="language-example"
+               lang="en"
+               title="English Language Example">
+               Hero - Dulquer Salmaan
+            </p>
+
+            <p id="arabicText"
+               class="language-example"
+               lang="te"
+               dir="rtl"
+               title="Telugu Text Example">
+               లక్కీ భాస్కర్
+            </p>
+
+            <p id="codeSnippet"
+               class="code-example"
+               translate="no"
+               title="Code Example">
+                &lt;html&gt; &amp; &lt;body&gt;
+            </p>
+        </section>
+
+        <!-- Draggable Elements -->
+        <section id="dragSection"
+                 class="section-block"
+                 title="Draggable Elements">
+
+            <h2 id="dragHeading" class="section-title">
+                Drag Items
+            </h2>
+
+            <hr>
+
+            <div id="dragItemOne"
+                 class="drag-item"
+                 draggable="true"
+                 data-item-type="widget"
+                 title="Drag Item One">
+                Drag Box 1
+            </div>
+
+            <div id="dragItemTwo"
+                 class="drag-item"
+                 draggable="true"
+                 data-item-type="tool"
+                 title="Drag Item Two">
+                Drag Box 2
+            </div>
+
+        </section>
+
+        <!-- Hidden Content -->
+        <section id="hiddenSection"
+                 class="section-block">
+
+            <div id="secretMessage"
+                 class="hidden-box"
+                 hidden
+                 data-visibility="hidden-content">
+                This hidden content is not visible on the page.
+            </div>
+
+        </section>
+
+        <!-- Entity Examples -->
+        <section id="entitySection"
+                 class="section-block"
+                 title="HTML Entities">
+
+            <h2 id="entityHeading" class="section-title">
+                HTML Entities Examples
+            </h2>
+
+            <hr>
+
+            <p class="entity-line">
+                Copyright: &copy;
+            </p>
+
+            <p class="entity-line">
+                Phonographic Copyright: &#8471;
+            </p>
+
+            <p class="entity-line">
+                Registered Trademark: &reg;
+            </p>
+
+            <p class="entity-line">
+                Trademark Symbol: &trade;
+            </p>
+
+            <p class="entity-line">
+                Euro Currency: &euro;
+            </p>
+
+            <p class="entity-line">
+                Pound Currency: &pound;
+            </p>
+
+            <p class="entity-line">
+                Less Than: &lt;
+            </p>
+
+            <p class="entity-line">
+                Greater Than: &gt;
+            </p>
+
+            <p class="entity-line">
+                Ampersand: &amp;
+            </p>
+
+            <p class="entity-line">
+                Double Quote: &quot;HTML&quot;
+            </p>
+
+            <p class="entity-line">
+                Non-Breaking Space: Hello&nbsp;World
+            </p>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer id="mainFooter"
+            class="footer-section"
+            title="Website Footer">
+
+        <p class="footer-text">
+            &copy; 2026 HTML Showcase Project. All Rights Reserved.
+        </p>
+
+    </footer>
+
+</body>
+</html>
