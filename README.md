@@ -40,16 +40,17 @@ Each task is stored in a separate file/folder for better organization and unders
 
 ## Author
 
-Chenchu Sasank Pendela
+Name:- Chenchu Sasank Pendela
+Email:- chenchusasank@paithacs.com
 
 ## 🎯 Purpose of This Repository
 
 The main purpose of this repository is to practice and demonstrate advanced HTML concepts without using CSS or JavaScript.
 
 ## Challenges Faced
-- Maintaining semantic consistency without CSS
-- Ensuring all pages validate with zero errors
-- Organizing complex navigation structures
+- Maintaining semantic consistency without CSS and JavaScript.
+- Ensuring all pages validate with zero errors.
+- Organizing complex navigation structures.
 
 ## 📂 Repository Structure
 
