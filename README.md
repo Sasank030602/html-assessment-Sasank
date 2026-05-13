@@ -46,6 +46,11 @@ Chenchu Sasank Pendela
 
 The main purpose of this repository is to practice and demonstrate advanced HTML concepts without using CSS or JavaScript.
 
+## Challenges Faced
+- Maintaining semantic consistency without CSS
+- Ensuring all pages validate with zero errors
+- Organizing complex navigation structures
+
 ## 📂 Repository Structure
 
 ```text
